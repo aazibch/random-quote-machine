@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Random Quote Machine</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="main">
+                <a class="display-none" id="tweet-button" href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</a>
+                <div class="text-center" id="quote-wrapper">
+                    <blockquote>
+                        <p id="quote"></p>
+                        <footer id="quote-author"></footer>
+                    </blockquote>
+                </div>
+                <button class="btn btn-default" id="new-quote-button" type="button">New Quote</button>
+            </div>
+
+            <footer class="text-center small text-muted" id="page-footer">
+                <p>Coded by Aazib Chaudhry.</p>
+                <p>All quotes are from <a href="https://forismatic.com/en/" target="_blank">forismatic.com</a>.</p>
+            </footer>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
